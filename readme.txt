@@ -1,4 +1,4 @@
-=== Akismet ===
+=== GitHub Gist Shortcode Plugin ===
 Contributors: paulwilliam
 Requires at least: 2.5.1
 Tested up to: 2.7
