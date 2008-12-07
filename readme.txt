@@ -32,7 +32,7 @@ You would use it like this:
 	end
 	[/gist]
 
-The content inside a gist is optional.
+The content inside a gist shortcode is optional.
 
 View the [CHANGELOG](http://svn.wp-plugins.org/github-gist-shortcode/trunk/CHANGELOG) to see what has changed between versions.
 
