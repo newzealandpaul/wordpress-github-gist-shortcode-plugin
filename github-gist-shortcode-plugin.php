@@ -3,7 +3,7 @@
 Plugin Name: GitHub Gist Shortcode
 Plugin URI: http://www.entropytheblog.com/blog/2008/12/wordpress-github-gist-shortcode-plugin/
 Description: Allows the use of a simple shortcode [gist id="12345"] to embed <a href="http://gist.github.com">GitHub Gists</a> in a post or page.
-Version: 0.1
+Version: 0.2
 Author: Paul William
 Author URI: http://www.entropytheblog.com/blog/
 
