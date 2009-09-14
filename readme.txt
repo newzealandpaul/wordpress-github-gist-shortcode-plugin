@@ -1,7 +1,7 @@
 === GitHub Gist Shortcode Plugin ===
 Contributors: paul1999
 Requires at least: 2.5.1
-Tested up to: 2.7
+Tested up to: 2.8
 Stable tag: trunk
 Tags: github, gist, shortcode, embed, git, code, script
 
