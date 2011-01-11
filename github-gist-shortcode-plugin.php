@@ -28,10 +28,15 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 // [gist id="gist-id-number"]
 function gist_shortcode_func($atts, $content = null) {
 	extract(shortcode_atts(array(
-		'id' => '30948'
+		'id' => '30948',
+		'file' => ''
 	), $atts));
 
-	$html =  "<script src=\"http://gist.github.com/".trim($id).".js\"></script>";
+	$src = 'http://gist.github.com/'.trim($id).'.js';
+	if($file != '') {
+		$src = $src.'?file='.trim($file);
+	}
+	$html =  "<script src=\"$src\"></script>";
 	
 	if($content != null){
 		$html = $html."<noscript><code class=\"gist\"><pre>".$content."</pre></code></noscript>";

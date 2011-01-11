@@ -1,5 +1,5 @@
 === GitHub Gist Shortcode Plugin ===
-Contributors: paul1999
+Contributors: paul1999, sdepold,Ronuk
 Requires at least: 2.5.1
 Tested up to: 2.8
 Stable tag: trunk
@@ -33,6 +33,8 @@ You would use it like this:
 	[/gist]
 
 The content inside a gist shortcode is optional.
+
+Note: you can also specify a file if you gist contains multiple files. For example "[gist id=30948 file=a.txt]"
 
 View the [CHANGELOG](http://svn.wp-plugins.org/github-gist-shortcode/trunk/CHANGELOG) to see what has changed between versions.
 
