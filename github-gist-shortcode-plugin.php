@@ -32,7 +32,7 @@ function gist_shortcode_func($atts, $content = null) {
 		'file' => ''
 	), $atts));
 
-	$src = 'http://gist.github.com/'.trim($id).'.js';
+	$src = 'https://gist.github.com/'.trim($id).'.js';
 	if($file != '') {
 		$src = $src.'?file='.trim($file);
 	}
